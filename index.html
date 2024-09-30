@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://code.iconify.design/1/1.0.0/iconify.min.js"></script>
+    <script src="./main.js" defer></script>
+    <title>Agify</title>
+</head>
+<body>
+    <header>
+        <h1>AGIFY</h1>
+    </header>
+    <main>
+        <div class="ageContainer">
+            <div>
+                <h2>Entrez un prénom pour obtenir une estimation d'âge rapide</h2>
+            </div>
+            <div class="inputContainer">
+                <div id="errorMessage" class="error hidden">Veuillez entrer un prénom</div>
+                <div class="input">
+                    <input id="nameInput" type="text" placeholder="Prénom">
+                    <button class="searchBtn" id="searchButton">
+                        <span class="iconify" data-icon="ic:outline-search"></span>
+                    </button>
+                </div>
+                <div id="answer" class="answer"></div>
+            </div>
+        </div>
+        </div>
+        <div class="historyContainer">
+            <div>
+                <h2>Historique</h2>
+                <button class="toggleBtn" id="toggleHistoryBtn">Afficher / Masquer</button>
+            </div>
+            <div id="historyContent" class="hidden">
+                <ul id="historyList"></ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Par Alicia Ross - PMI 2024</p>
+        <p>Créé avec <a href="https://agify.io" target="_blank">Agify</a></p>
+    </footer>
+</body>
+</html>

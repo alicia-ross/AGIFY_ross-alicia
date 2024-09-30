@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgba(224, 224, 224, 1);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgba(122, 148, 204, 1);
+    font-size: 60px;
+    padding: 0;
+    margin: 20px;
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+main {
+    padding-top: 80px;
+}
+
+h2 {
+    text-align: center;
+    color: rgba(122, 148, 204, 1);
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+input {
+    width: 400px;
+    height: 20px;
+    border-radius: 8px;
+    border: 2px solid rgba(122, 148, 204, 1);
+    background-color:rgba(245, 245, 245, 1);
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    color: rgba(152, 152, 152, 1);
+}
+
+.searchBtn {
+    width: 45px;
+    height: 45px;
+    background-color: rgba(122, 148, 204, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.searchBtn:hover {
+    background-color: rgba(122, 148, 204, 0.8);
+}
+
+.iconify {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.answer {
+    text-align: center;
+    color: rgba(122, 148, 204, 1);
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    min-height: 40px;
+}
+
+.ageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.historyContainer {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggleBtn {
+    width: 165px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid rgba(122, 148, 204, 1);
+    border-radius: 8px;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: rgba(122, 148, 204, 1);
+    font-size: 16px;
+    font-family: "KoHo", sans-serif;
+}
+
+.toggleBtn:hover {
+    background-color: rgba(122, 148, 204, 0.8);
+    color: white;
+}
+
+ul {
+    color: rgba(122, 148, 204, 0.8);
+    font-size: 20px;
+    font-family: "KoHo", sans-serif;
+}
+
+li {
+    padding: 3px;
+}
+
+footer {
+    background-color: rgba(224, 224, 224, 1);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px 5px 25px;
+    color: rgba(122, 148, 204, 0.8);
+    font-family: "KoHo", sans-serif;
+    font-weight: 700;
+}
+
+.error {
+    color: red;
+    font-size: 16px;
+    font-family: "KoHo", sans-serif;
+}
+
+.hidden {
+    visibility: hidden;
+}
